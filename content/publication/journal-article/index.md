@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
 authors:
 - admin
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
-doi: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
+doi: "10.1016/j.compfluid.2018.01.038"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2018-01-01T00:00:00Z"
@@ -66,12 +66,12 @@ projects: []
 slides: example
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
+#{{% alert note %}}
+#Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+#{{% /alert %}}
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+#{{% alert note %}}
+#Click the *Slides* button above to demo Academic's Markdown slides feature.
+#{{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
