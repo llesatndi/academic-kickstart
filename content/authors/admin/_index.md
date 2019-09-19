@@ -15,7 +15,7 @@ role: Research Fellow in scientific computing
 # Organizations/Affiliations
 organizations:
 - name: Nanyang Technological University
-  url: "ntu.edu.sg"
+  url: "https://www.ntu.edu.sg"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I focus my research on Reduced Order Modeling (ROM) and associated techniques such as data compression, low rank representation. I have recently set myself the goal to integrate deep learning features to ROM framework and solving PDEs.

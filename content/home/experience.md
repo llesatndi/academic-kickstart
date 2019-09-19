@@ -18,27 +18,35 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Research Fellow"
+  company = "Nanyang Technological University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Singapore"
+  date_start = "2019-04-10"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Research:
+
+  * Bibliographic work on Deep Learning for PDE solving
+  * Developing New ROM using PDE
+  * Low dimensional compression of high dimensional objects
+
+  Teaching:
+  * Tutorials in mathematics for engineering
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Ph.D"
+  company = "University of Bordeaux"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "France"
+  date_start = "2015-10-12"
+  date_end = "2018-10-16"
+  description = """
+  **“Reduced Order modeling applied to fluid dynamics.”**
+• Tensor decomposition
+• POD analysis of bifurcation sequence in LDC flow
+• ROM, (a) “physical” interpolation , (b) POD Galerkin
+  """
 
 +++
