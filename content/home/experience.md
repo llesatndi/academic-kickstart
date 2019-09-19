@@ -44,9 +44,10 @@ date_format = "Jan 2006"
   date_end = "2018-10-16"
   description = """
   **“Reduced Order modeling applied to fluid dynamics.”**
-• Tensor decomposition
-• POD analysis of bifurcation sequence in LDC flow
-• ROM, (a) “physical” interpolation , (b) POD Galerkin
+
+  * Tensor decomposition
+  * POD analysis of bifurcation sequence in LDC flow
+  * ROM, (a) “physical” interpolation , (b) POD Galerkin
   """
 
 +++
