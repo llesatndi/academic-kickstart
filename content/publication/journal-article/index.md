@@ -1,13 +1,17 @@
 ---
+markup: mmark
 title: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
 authors:
 - admin
-- Robert Ford
-date: "2015-09-01T00:00:00Z"
+- Swagata Bhaumik
+- GRKC Avatar
+- Mejdi Azaiez
+- Tapan K Sengupta
+date: "2018-01-01T00:00:00Z"
 doi: "10.1016/j.compfluid.2018.01.038"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2018-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,10 +23,10 @@ publication_types: ["2"]
 publication: "*Computers and Fluids*"
 publication_short: ""
 
-abstract: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta {\it et al.} (J. Comput. Phys., {\bf 228}, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
+abstract: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re\_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta *et al.* (J. Comput. Phys., **228**, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re\_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
 
 # Summary. An optional shortened abstract.
-summary: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta {\it et al.} (J. Comput. Phys., {\bf 228}, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
+summary:
 
 tags:
 - Lid driven cavity
@@ -47,7 +51,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: ''
+  caption: 'Ranges of unstable flow in singular lid driven cavity at Re=8800'
   focal_point: ""
   preview_only: false
 
