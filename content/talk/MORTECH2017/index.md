@@ -1,30 +1,30 @@
 ---
-title: Tensor Reduction for Reduced Order Modelling,
-event: IMACS World Congress 2016
-event_url: https://www.sciencedirect.com/journal/applied-numerical-mathematics/vol/133/suppl/C
+title: A Time-scaled Interpolation Reduced Order Model
+event: MORTech 2017
+event_url: http://www.imus.us.es/IWROM4/
 
-location: Xiamen
+location: University of Seville, IMUS
 address:
   street: ""
-  city: Xiamen
-  region: Fujian
+  city: Sevilla
+  region: ""
   postcode: ""
-  country: China
+  country: Spain
 
-summary: "Overview of tensor decomposition techniques, mathematical aspects."
-abstract: ""
+summary: "Presentation of new interpolation ROM method based on physical link between St number and Re for both internal and external flows."
+abstract: "Presentation of new interpolation ROM method based on physical link between $St$ number and $Re$ for both internal and external flows."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2016-12-14T13:00:00Z"
+date: "2017-11-10T13:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 authors: [admin]
-tags: [Tensor decomposition, POD, SVD, HOSVD]
+tags: [Time scaling, interpolation, POD, Lid Driven Cavity, Flow past a circular cylinder]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -36,7 +36,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: "files/IMACS2016.pdf"
+url_slides: "files/mortech_seville2017.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
