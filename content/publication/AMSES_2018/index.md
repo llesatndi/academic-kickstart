@@ -1,14 +1,14 @@
 ---
 markup: mmark
-title: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
+title: "Reduced order model of flows by time-scaling interpolation of DNS data"
 authors:
-- admin
-- Swagata Bhaumik
-- GRKC Avatar
-- Mejdi Azaiez
 - Tapan K Sengupta
-date: "2018-01-01T00:00:00Z"
-doi: "10.1016/j.compfluid.2018.01.038"
+- admin
+- S I Haider
+- Atchyut Gullapalli
+- Mejdi Azaiez
+date: "2018-10-01T00:00:00Z"
+doi: "10.1186/s40323-018-0119-2"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -20,26 +20,27 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Computers and Fluids*"
+publication: "*Advanced Modeling and Simulation in Engineering Sciences* (AMSES)"
 publication_short: ""
 
-abstract: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re\_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta *et al.* (J. Comput. Phys., **228**, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re\_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
+abstract: A new reduced order model (ROM) is proposed here for reconstructing super-critical flow past circular cylinder and lid driven cavity using time-scaling of vorticity data directly. The present approach is a significant improvement over instability-mode (developed from POD modes) based approach implemented in Sengupta et al. [Phys Rev E 91(4):043303, 2015], where governing Stuart--Landau--Eckhaus equations are solved. In the present method, we propose a novel ROM that uses relation between Strouhal number (St) and Reynolds number (Re). We provide a step by step approach for this new ROM for any Re and is a general procedure with vorticity data requiring very limited storage as well as being extremely fast. We emphasize on the scientific aspects of developing ROM by taking data from close proximity of the target Re to produce DNS-quality reconstruction, while the applied aspect is also shown. All the donor points need not be immediate neighbors and the reconstructed solution has equivalent relaxed accuracy. However, one would restrain the range where the flow behavior is coherent between donors. The reported work is a proof of concept utilizing the external and internal flow examples, and this can be extended for other flows characterized by appropriate Re--St data.},
+
 
 # Summary. An optional shortened abstract.
 summary:
 
 tags:
-- Lid driven cavity
-- DNS
-- Multiple Hopf bifurcation
-- Polygonal core vortex
-- Phase space portrait
+- time-scaling
+- interpolation
+- LDC
+- Flow past a circular cylinder
+- ROM
 featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.researchgate.net/publication/322872397_Multiple_Hopf_bifurcations_and_flow_dynamics_inside_a_2D_singular_lid_driven_cavity
+url_pdf: https://amses-journal.springeropen.com/track/pdf/10.1186/s40323-018-0119-2
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -67,5 +68,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
