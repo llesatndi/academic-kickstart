@@ -1,14 +1,14 @@
 ---
 markup: mmark
-title: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
+title: "POD Applied to Numerical Study of Unsteady Flow Inside Lid-driven Cavity"
 authors:
 - admin
 - Swagata Bhaumik
 - GRKC Avatar
-- Mejdi Azaiez
 - Tapan K Sengupta
-date: "2018-01-01T00:00:00Z"
-doi: "10.1016/j.compfluid.2018.01.038"
+- Mejdi Azaiez
+date: "2018-06-01T00:00:00Z"
+doi: "10.4208/jms.v51n2.18.03"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -20,26 +20,27 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Computers and Fluids*"
+publication: "*Journal of Mathematical Study*"
 publication_short: ""
 
-abstract: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re\_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta *et al.* (J. Comput. Phys., **228**, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re\_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
+abstract: Flow inside a lid-driven cavity (LDC) is studied here to elucidate bifurcation sequences of the flow at super-critical Reynolds numbers (Recr1) with the help of analyzing the time series at most energetic points in the flow domain. The implication of Recr1 in the context of direct simulation of Navier-Stokes equation is presented here for LDC, with or without explicit excitation inside the LDC. This is aided further by performing detailed enstrophy-based proper orthogonal decomposition (POD) of the flow field. The flow has been computed by an accurate numerical method for two different uniform grids. POD of results of these two grids help us understand the receptivity aspects of the flow field, which give rise to the computed bifurcation sequences by understanding the similarity and differences of these two sets of computations. We show that POD modes help one understand the primary and secondary instabilities noted during the bifurcation sequences.
 
 # Summary. An optional shortened abstract.
 summary:
 
 tags:
-- Lid driven cavity
 - DNS
-- Multiple Hopf bifurcation
-- Polygonal core vortex
-- Phase space portrait
+- lid driven cavity
+- Multiple Hopf Bifurcation
+- POD
+- POD modes analysis
+- Polygonal cire vortex
 featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.researchgate.net/publication/322872397_Multiple_Hopf_bifurcations_and_flow_dynamics_inside_a_2D_singular_lid_driven_cavity
+url_pdf: https://www.researchgate.net/publication/325947055_POD_Applied_to_Numerical_Study_of_Unsteady_Flow_Inside_Lid-driven_Cavity
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -51,7 +52,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Ranges of unstable flow in singular lid driven cavity at Re=8800'
+  caption: 'POD modes in LDC for Re = 8670 obtained with (257 × 257) grid during the linear instability stage.'
   focal_point: ""
   preview_only: false
 
@@ -67,5 +68,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
