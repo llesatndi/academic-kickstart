@@ -4,7 +4,7 @@ title: "Low rank approximation techniques and reduced order modeling applied to 
 authors:
 - admin
 date: "2018-10-01T00:00:00Z"
-doi: "10.1016/j.compfluid.2018.01.038"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""

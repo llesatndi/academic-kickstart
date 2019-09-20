@@ -23,15 +23,21 @@ bio: I focus my research on Reduced Order Modeling (ROM) and associated techniqu
 interests:
 - Reduced Order Modeling
 - Low rank approximation and tensor reduction
-- Deep Learning for PDEs
+- Tensor formats
+- Fluid dynamics
+- Deep Learning
+- Deep learning applied to PDEs
 
 education:
   courses:
   - course: PhD in Mechanics (Fluid Dynamics)
     institution: Université de Bordeaux
     year: 2018
-  - course: MEng in Mechanics and Mathematical modeling
+  - course: MEng in Mechanicc and Mathematical Modeling
     institution: Bordeaux INP, Matmeca
+    year: 2015
+  - course: MS in Applied Mathematics
+    institution: Université de Bordeaux
     year: 2015
 
 # Social/Academic Networking
@@ -59,7 +65,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "lucas.lestandi@gmail.com"
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 #user_groups:
@@ -68,4 +74,3 @@ email: "lucas.lestandi@gmail.com"
 ---
 
 I focus my research on Reduced Order Modeling (ROM) and associated techniques such as data compression, low rank representation. I have recently set myself the goal to integrate deep learning features to ROM framework and solving PDEs.
-

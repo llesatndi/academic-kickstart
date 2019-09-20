@@ -32,6 +32,7 @@ date_format = "Jan 2006"
   * Low dimensional compression of high dimensional objects
 
   Teaching:
+
   * Tutorials in mathematics for engineering
   """
 
@@ -43,11 +44,18 @@ date_format = "Jan 2006"
   date_start = "2015-10-12"
   date_end = "2018-10-16"
   description = """
-  **“Reduced Order modeling applied to fluid dynamics.”**
+  **“_Reduced Order modeling applied to fluid dynamics.”_**
+  
+  Research topics:
 
   * Tensor decomposition
   * POD analysis of bifurcation sequence in LDC flow
   * ROM, (a) “physical” interpolation , (b) POD Galerkin
+
+  Teaching (undergraduate level):
+
+  * Practical work (Fluid dynamics, thermodynamics and thermal machines) **128H**
+  * Tutorials in Fluid dynamics & engineering, **64h**
   """
 
 +++
