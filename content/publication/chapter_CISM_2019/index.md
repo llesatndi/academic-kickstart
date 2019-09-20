@@ -1,14 +1,12 @@
 ---
 markup: mmark
-title: "Multiple Hopf bifurcations and flow dynamics inside a 2D singular lid driven cavity"
+title: "Chapter: Low Rank Approximation of Multidimensional Data"
 authors:
-- admin
-- Swagata Bhaumik
-- GRKC Avatar
 - Mejdi Azaiez
-- Tapan K Sengupta
-date: "2018-01-01T00:00:00Z"
-doi: "10.1016/j.compfluid.2018.01.038"
+- admin
+- Tomas Chacon Rebollo
+date: "2019-04-01T00:00:00Z"
+doi: "10.1007/978-3-030-17012-7"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -17,29 +15,35 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Computers and Fluids*"
+publication: "*High-Performance Computing of Big Data for Turbulence and Combustion*, **Pirozzoli S., Sengupta T. (eds)**"
 publication_short: ""
 
-abstract: Two-dimensional (2D) flow inside a lid driven cavity (LDC) is shown to display multi-modal behavior in a consistent manner following the first Hopf bifurcation with varying Reynolds numbers ($Re$), depending upon the chosen spatial and temporal discretization scheme. Direct numerical simulation (DNS) following impulsive start, is used to show spatio-temporal growth and its nonlinear saturation of disturbance growth. Despite the fact that researchers have produced different value of Reynolds number when first Hopf bifurcation occurs ($Re\_{cr1}$), DNS fundamentally differs from classical bifurcation studies involving global instability study of an equilibrium flow due to adopted nonlinear approach and not restricting the analysis to temporal instability only. The accuracy attribute of the DNS adopted here has been shown conclusively earlier via demonstration of a weak transient polygonal core vortex surrounded by relatively stronger gyrating vortices, which appear as a constellation after the disappearance of the transient, in Sengupta *et al.* (J. Comput. Phys., **228**, 3048- 3071 and 6150-6168 (2009)). Investigated LDC flow is characterized by multiple time scales at any $Re$, which are weak function of $Re$ in selective intervals, punctuated by multiple bifurcations. The present investigation achieves two primary goals. First, it proposes to reconcile that $Re\_{cr1}$ obtained by different numerical approaches can be shown to be in same range, provided the equilibrium flow obtained is of good quality, untainted by excessive diffusion. Secondly, we also show that for increasing $Re$ following the first Hopf bifurcation, the flow during the limit cycle suffers a secondary instability, thus, requiring computation of the flow field over a longer time period. The first goal is met by exciting the flow field with a pulsating vortex inside the LDC for a very high accuracy scheme, we are able to show the universal nature of the primary bifurcation for $Re$ in the range between 8020 and 8025. The flow at higher $Re$ displays significantly increased spectral peaks, including broad-band spectrum and the understanding of all these have been aided by phase space portraits.
+abstract: In the last decades, numerical simulation has experienced tremendous improvements driven by massive growth of computing power. Exascale computing has been achieved this year and will allow solving ever more complex problems. But such large systems produce colossal amounts of data which leads to its own difficulties. Moreover, many engineering problems such as multiphysics or optimisation and control, require far more power that any computer architecture could achieve within the current scientific computing paradigm. In this chapter, we propose to shift the paradigm in order to break the curse of dimensionality by introducing decomposition to reduced data. We present an extended review of data reduction techniques and intends to bridge between applied mathematics community and the computational mechanics one. The chapter is organized into two parts. In the first one bivariate separation is studied, including discussions on the equivalence of proper orthogonal decomposition (POD, continuous framework) and singular value decomposition (SVD, discrete matrices). Then, in the second part, a wide review of tensor formats and their approximation is proposed. Such work has already been provided in the literature but either on separate papers or into a pure applied mathematics framework. Here, we offer to the data enthusiast scientist a description of Canonical, Tucker, Hierarchical and Tensor train formats including their approximation algorithms. When it is possible, a careful analysis of the link between continuous and discrete methods will be performed.
 
 # Summary. An optional shortened abstract.
 summary:
 
 tags:
-- Lid driven cavity
-- DNS
-- Multiple Hopf bifurcation
-- Polygonal core vortex
-- Phase space portrait
+- Data
+- Data reduction
+- HOSVD
+- Low rank approximation
+- MOR
+- Model Reduction
+- POD
+- Singular Values Decomposition
+- Tensor train
+- Tensors
+
 featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.researchgate.net/publication/322872397_Multiple_Hopf_bifurcations_and_flow_dynamics_inside_a_2D_singular_lid_driven_cavity
+url_pdf: https://www.researchgate.net/publication/333426196_Low_Rank_Approximation_of_Multidimensional_Data
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -51,7 +55,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Ranges of unstable flow in singular lid driven cavity at Re=8800'
+  caption: 'RPOD decomposition graph of a 3 parameter function'
   focal_point: ""
   preview_only: false
 
@@ -67,5 +71,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
