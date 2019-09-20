@@ -1,5 +1,5 @@
 ---
-title: pydecomp software
+title: pydecomp V1.0 software
 summary: "A tensor decomposition software in python.
 "
 tags:
@@ -35,7 +35,12 @@ version was programmed in python. It now offers interface with several standard
 data formats, efficient binary storage and readable benchmarks. </br>
 
 The technical background (math) and a series of numerical experiments are presented
-in my thesis.
+in my thesis.</br>
+
+**Status: V1.0** The project is itself is complete as it reached its goals. However
+some new features might be added in the future depending on the requirement of my
+work. For instant a (very) low rank Deep Neural Network representation module is
+likely in the coming months.
 
 * **Lucas Lestandi** design the architecture and fortran version.
 * **Diego Britez** (research intern) programmed most of the python version.
