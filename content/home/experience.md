@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 
   Teaching:
 
-  * Tutorials in mathematics for engineering
+  * Tutorials in mathematics for engineering **32H**
   """
 
 [[experience]]
@@ -44,8 +44,10 @@ date_format = "Jan 2006"
   date_start = "2015-10-12"
   date_end = "2018-10-16"
   description = """
-  **“_Reduced Order modeling applied to fluid dynamics.”_**
-  
+  **“_Low Rank Approximation and Reduced Order modeling applied to some fluid dynamics problems.”_**
+
+  _Under the direction of : Pr. Mejdi Azaiez (Univ. Bordeaux) and Pr. Tomas Chacon Rebollo (Univ. Sevilla)_
+
   Research topics:
 
   * Tensor decomposition
