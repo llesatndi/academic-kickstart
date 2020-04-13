@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Singapore"
   date_start = "2019-04-10"
-  date_end = ""
+  date_end = "2019-04-09"
   description = """
   Research:
 
