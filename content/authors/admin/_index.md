@@ -33,7 +33,7 @@ education:
   - course: PhD in Mechanics (Fluid Dynamics)
     institution: Université de Bordeaux
     year: 2018
-  - course: MEng in Mechanicc and Mathematical Modeling
+  - course: MEng in Mechanics and Mathematical Modeling
     institution: Bordeaux INP, Matmeca
     year: 2015
   - course: MS in Applied Mathematics

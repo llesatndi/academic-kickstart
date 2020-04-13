@@ -90,14 +90,14 @@ phone = "+65 8226 4580"
 
 # Address, Singapore 637371
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "21 Nanyang Link", city = "Singapore", region = "", postcode = "637371", country = "Singapore", country_code = "SG"}
+address = {street = "", city = "Singapore", region = "", postcode = "", country = "Singapore", country_code = "SG"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "1.342178", longitude = "103.681993"}
+coordinates = {latitude = "1.298864", longitude = "103.787606 "}
 
 # Directions for visitors to locate you.
-directions = "Enter SPMS Building and take the stairs to Office MAS 04-15 on Floor 3"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
